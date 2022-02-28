@@ -1,14 +1,14 @@
 import 'react-native-gesture-handler';
 import react from 'react';
-import {StatusBar} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
+import { StatusBar } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import Routes from './src/routes';
 
 function App() {
   return (
     <NavigationContainer>
-      <StatusBar hidden={true}/>
-      <Routes/>
+      <StatusBar hidden={true} />
+      <Routes />
     </NavigationContainer>
   );
 }
