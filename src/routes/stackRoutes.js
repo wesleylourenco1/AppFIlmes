@@ -17,8 +17,7 @@ function StackRoutes(){
         name="Detail"
         component={Detail}
         options={{headerShown: false,
-        title: "Detalhes",
-        }}
+        title: "Detalhes"        }}
         />
         </Stack.Navigator>
 
